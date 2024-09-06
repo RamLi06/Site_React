@@ -47,6 +47,10 @@ footer {
     height: auto;
 }
 
+#metade{
+    color: rgb(215, 10, 10);
+}
+
 /* Navegação */
 .fds3 {
     display: flex;
@@ -70,14 +74,16 @@ footer {
 input[type="text"] {
     border-radius: 30px;
     background-image: url(https://th.bing.com/th/id/OIP.mfB2EAtZVWMY8vD51Zig7AHaEK?rs=1&pid=ImgDetMain);
+    opacity: 0.7;
     background-position: center;
     background-size: cover;
     padding: 0.5rem;
     border: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 80%;
     max-width: 400px;
 }
+
 
 /* Categorias e produtos */
 .dois, .boneco {
@@ -130,11 +136,11 @@ img {
 }
 
 /* Outras seções */
-.creator, .final, .final1 {
+.final, .final1 {
     border: solid rgb(34, 35, 48);
     background-color: rgb(34, 35, 48);
     color: white;
-    padding: 1rem;
+    text-align: left;
 }
 
 .final {
@@ -144,9 +150,13 @@ img {
     color: white;
 }
 
-.final1 {
+.final1 h1 {
     text-align: center;
     padding: 0.5rem;
+    scale: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Media Queries */
@@ -169,4 +179,11 @@ img {
         flex-direction: column;
         align-items: center;
     }
+}
+.creator{
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
 }
