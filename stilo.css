@@ -1,0 +1,220 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-color: rgb(207, 209, 228);
+
+    font-family: 'Qetod', sans-serif;
+}
+
+@font-face {
+    font-family: 'Qetod';
+    src: url('path-to-your-font-directory/Qetod-Regular.ttf') format('truetype');
+}
+
+.boneco {
+    display: flex;
+    scale: 50%;
+    justify-content: space-around;
+    margin-right: 72%;
+
+}
+
+.parte1 {
+
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+    scale: 100%;
+
+}
+
+#oop {
+    display: flex;
+    padding-left: 85%;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+
+}
+
+.local {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: aliceblue;
+}
+
+
+
+.dois {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border: solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    scale: 89%;
+    border-width: 15px;
+}
+
+#produto1 {
+    border: 1px solid white;
+    background-color: white;
+    scale: 135%;
+    border-radius: 30px;
+    border-width: 40px;
+    box-shadow: 10px 10px 10px rgb(71, 71, 71);
+    margin-left: 50%;
+    width: 402;
+    height: 582;
+}
+
+#fds2 {
+    border: 1px solid white;
+    background-color: white;
+    scale: 135%;
+    border-radius: 30px;
+    border-width: 40px;
+    box-shadow: 10px 10px 10px rgb(71, 71, 71);
+    margin-left: 50%;
+}
+
+#produto2 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    border-width: 40px;
+    box-shadow: 10px 10px 10px rgb(71, 71, 71);
+
+
+}
+
+#sei {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    color: rgb(254, 0, 0);
+}
+
+.boneco:hover {
+    display: flex;
+    transition: ease-in-out;
+}
+
+#caxa {
+    width: 80px;
+    height: auto;
+
+}
+
+footer {
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+}
+
+header {
+
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+}
+
+#nome {
+    text-align: center;
+}
+
+#items {
+    display: flex;
+    justify-content: end;
+    color: white;
+    padding: 2%;
+}
+
+#metade {
+    color: red;
+}
+
+#podre {
+    color: blueviolet;
+
+}
+
+.fds3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.Buscar{
+
+    display: flex;
+
+    justify-content: center;
+
+    border: solid rgb(34, 35, 48);
+    background-color:rgb(34, 35, 48) ;
+    scale: 100%;
+}
+
+.pé{
+
+    scale: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid rgb(34, 35, 48);
+}
+.creator{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+}
+
+#rede{
+
+}
+
+
+
+.final{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    padding-left: 5%;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+}
+
+.vsft{
+    color: white;
+}
+
+.final1{
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    display: flex;
+    justify-content: end;
+    padding-right: 3%;
+    color: white;
+}
+input{
+    border-radius: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.mfB2EAtZVWMY8vD51Zig7AHaEK?rs=1&pid=ImgDetMain);
+    background-position: 250px 150px;
+    scale: 120%;
+    color: rgb(233, 0, 0);
+}
+
