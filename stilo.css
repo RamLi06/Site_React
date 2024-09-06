@@ -1,13 +1,14 @@
+/* Reset básico */
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
 
 body {
     background-color: rgb(207, 209, 228);
-
     font-family: 'Qetod', sans-serif;
+    margin: 0;
 }
 
 @font-face {
@@ -15,206 +16,157 @@ body {
     src: url('path-to-your-font-directory/Qetod-Regular.ttf') format('truetype');
 }
 
-.boneco {
-    display: flex;
-    scale: 50%;
-    justify-content: space-around;
-    margin-right: 72%;
-
-}
-
-.parte1 {
-
+/* Layout geral */
+header, footer {
     border: solid rgb(34, 35, 48);
     background-color: rgb(34, 35, 48);
     color: white;
-    scale: 100%;
-
+    padding: 1rem;
 }
 
-#oop {
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2%;
+}
+
+/* Logo e título */
+#nome {
     display: flex;
-    padding-left: 85%;
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#caxa {
+    width: 5rem;
+    height: auto;
+}
+
+/* Navegação */
+.fds3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#items {
     color: white;
-
+    text-decoration: none;
 }
 
-.local {
+/* Busca */
+.Buscar {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    color: aliceblue;
+    justify-content: center;
+    margin: 1rem 0;
 }
 
+input[type="text"] {
+    border-radius: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.mfB2EAtZVWMY8vD51Zig7AHaEK?rs=1&pid=ImgDetMain);
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 400px;
+}
 
+/* Categorias e produtos */
+.dois, .boneco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
 
 .dois {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
+    text-decoration: none;
+    color: black;
     border: solid white;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    scale: 89%;
-    border-width: 15px;
+    background-color: white;
+    
 }
 
 #produto1 {
     border: 1px solid white;
     background-color: white;
-    scale: 135%;
     border-radius: 30px;
-    border-width: 40px;
     box-shadow: 10px 10px 10px rgb(71, 71, 71);
-    margin-left: 50%;
-    width: 402;
-    height: 582;
-}
-
-#fds2 {
-    border: 1px solid white;
-    background-color: white;
-    scale: 135%;
-    border-radius: 30px;
-    border-width: 40px;
-    box-shadow: 10px 10px 10px rgb(71, 71, 71);
-    margin-left: 50%;
-}
-
-#produto2 {
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 30px;
-    border-width: 40px;
-    box-shadow: 10px 10px 10px rgb(71, 71, 71);
-
-
-}
-
-#sei {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: start;
-    color: rgb(254, 0, 0);
-}
-
-.boneco:hover {
-    display: flex;
-    transition: ease-in-out;
-}
-
-#caxa {
-    width: 80px;
-    height: auto;
-
-}
-
-footer {
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
-    color: white;
-}
-
-header {
-
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
-}
-
-#nome {
+    width: 70%;
+    max-width: 30%;
     text-align: center;
+    margin: 1%;
+    
 }
 
-#items {
-    display: flex;
-    justify-content: end;
-    color: white;
-    padding: 2%;
+#produto1 img{
+    scale: 90%;
+    border-radius: 40px;
 }
 
-#metade {
-    color: red;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-#podre {
-    color: blueviolet;
-
-}
-
-.fds3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-
-.Buscar{
-
-    display: flex;
-
-    justify-content: center;
-
-    border: solid rgb(34, 35, 48);
-    background-color:rgb(34, 35, 48) ;
-    scale: 100%;
-}
-
-.pé{
-
-    scale: 100%;
+/* Rodapé */
+.pé {
     display: flex;
     justify-content: center;
-    border: solid rgb(34, 35, 48);
+    gap: 1rem;
 }
-.creator{
 
+.redes img {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Outras seções */
+.creator, .final, .final1 {
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+    padding: 1rem;
+}
+
+.final {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
+    gap: 0.5rem;
     color: white;
 }
 
-#rede{
-
+.final1 {
+    text-align: center;
+    padding: 0.5rem;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+    .boneco {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #produto1 {
+        width: 90%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 2%;
+    }
 
-.final{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: start;
-    padding-left: 5%;
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
-    color: white;
+    .fds3 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
-
-.vsft{
-    color: white;
-}
-
-.final1{
-    border: solid rgb(34, 35, 48);
-    background-color: rgb(34, 35, 48);
-    display: flex;
-    justify-content: end;
-    padding-right: 3%;
-    color: white;
-}
-input{
-    border-radius: 30px;
-    background-image: url(https://th.bing.com/th/id/OIP.mfB2EAtZVWMY8vD51Zig7AHaEK?rs=1&pid=ImgDetMain);
-    background-position: 250px 150px;
-    scale: 120%;
-    color: rgb(233, 0, 0);
-}
-
