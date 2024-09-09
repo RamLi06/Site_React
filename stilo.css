@@ -72,7 +72,7 @@ footer {
 }
 
 input[type="text"] {
-    border-radius: 10px;
+    border-radius: 30px;
     background-image: url(https://th.bing.com/th/id/OIP.mfB2EAtZVWMY8vD51Zig7AHaEK?rs=1&pid=ImgDetMain);
     opacity: 0.7;
     background-position: center;
@@ -118,7 +118,7 @@ input[type="text"] {
     max-width: 30%;
     text-align: center;
     margin: 1%;
-    
+
 }
 
 #produto1 img{
@@ -205,4 +205,11 @@ img {
 .final h2{
 
     padding-left: 4rem;
+}
+
+#produto1:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px purple ;
+    transform: scale(1.1);
+    border: solid purple;
 }
